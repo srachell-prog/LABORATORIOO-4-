@@ -13,7 +13,7 @@ public class Main {
         System.out.println("2. Restar");
         System.out.print("Seleccione una opción: ");
 
-        int opcion = entrada.nextInt();
+        int opcion = entrada.nextInt();s
 
         System.out.print("Ingrese el primer número: ");
         double num1 = entrada.nextDouble();
