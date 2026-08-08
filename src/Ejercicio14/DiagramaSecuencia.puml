@@ -1,0 +1,13 @@
+package Ejercicio14;
+@startuml
+
+actor Usuario
+participant "Sistema" as Sistema
+participant "Base de Datos" as BD
+
+Usuario -> Sistema: Solicita información del estudiante
+Sistema -> BD: Busca estudiante
+BD --> Sistema: Devuelve información
+Sistema --> Usuario: Muestra información del estudiante
+
+@enduml
